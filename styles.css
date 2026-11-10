@@ -23,7 +23,7 @@ body {
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
-  background: url("./assets/paper-grain.svg"), radial-gradient(ellipse at 48% 16%, #fdf7eb 12%, #f3e9d6 85%);
+  background: url("./paper-grain.svg"), radial-gradient(ellipse at 48% 16%, #fdf7eb 12%, #f3e9d6 85%);
 }
 main { flex: 1; }
 h1, h2, h3, p, figure, blockquote, ol, dl, dd { margin: 0; }
@@ -254,7 +254,7 @@ textarea.answer-input { resize: vertical; min-height: 165px; }
   padding: 25px 19px 19px;
   border: 1px solid #cdb794;
   border-radius: 7px;
-  background: #eee3ce url("./assets/paper-grain.svg");
+  background: #eee3ce url("./paper-grain.svg");
   text-align: center;
 }
 .chapter-card::after { content: ""; position: absolute; inset: 7px; z-index: -1; border: 1px solid #d4bd99; border-radius: 3px; pointer-events: none; }
