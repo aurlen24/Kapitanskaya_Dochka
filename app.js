@@ -154,7 +154,7 @@ function showQuestion(focus = true) {
   byId('chapter-difficulty').textContent = `${question.difficulty} уровень`;
   byId('chapter-title').textContent = question.name;
   byId('chapter-description').textContent = question.description;
-  const art = `./assets/${question.art}.webp`;
+  const art = `./${question.art}.webp`;
   if (byId('chapter-art').getAttribute('src') !== art) byId('chapter-art').src = art;
   updateProgress();
   showScreen('quiz', 'question-title', focus);
